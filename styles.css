@@ -68,6 +68,7 @@
 
 .summary-container > ul > li {
   list-style: none;
+  margin: 1em 0 1em 0;
 }
 
 .score-category {
@@ -125,13 +126,13 @@
   background-color: hsla(234, 85%, 45%, 0.1);
 }
 
-.visual-text > .score-category>p {
+.visual-text > .score-category > p {
   color: hsl(234, 85%, 45%);
   margin-left: .6em;
 }
 
 .score > p > span {
-  color: hsl(224, 30%, 27%);
+  color: hsla(224, 30%, 27%, 0.5);
 }
 
 button {
@@ -143,6 +144,7 @@ button {
   background-color: hsl(224, 30%, 27%);
   border: none;
   color: hsl(0, 0%, 100%);
+  margin-top: .5em;
 }
 
 
