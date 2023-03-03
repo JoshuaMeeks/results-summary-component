@@ -31,7 +31,7 @@
   margin: 1.2em;
 }
 
-.score {
+.overall-score {
   color: hsl(0, 0%, 100%);
   font-size: 62px;
   font-weight: 800;
@@ -57,7 +57,7 @@
 }
 
 .summary-container {
-  padding: 1em 2em 1em 2em;
+  padding: 1.5em 2em 1.5em 2em;
 }
 
 .summary-container > h1 {
@@ -69,8 +69,22 @@
   list-style: none;
 }
 
-.reaction-text {
+.score-category {
+  display: flex;
+}
 
+.reaction-text {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: rgba(255, 87, 87, 0.1);
+}
+
+.reaction-text > .score-category > p {
+  color: hsl(0, 100%, 67%);
+  margin-left: .6em;
 }
 
 
